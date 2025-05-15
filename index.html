@@ -1,75 +1,90 @@
 <!DOCTYPE html>
-<html lang="az">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Əli Məmmədov - CV</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Mammadovv - Resume</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<div class="container">
+  <div class="container">
     <aside class="sidebar">
-        <div class="profile">
-            <img src="profile.jpg" alt="Əli Məmmədov" class="profile-img">
-            <h1>Əli Məmmədov</h1>
-            <h2>İnformasiya Təhlükəsizliyi Mütəxəssisi</h2>
-        </div>
-        <div class="contact">
-            <h3>Əlaqə</h3>
-            <ul>
-                <li>📞 +994 50 123 45 67</li>
-                <li>📧 ali.mammadov@example.com</li>
-                <li>📍 Azərbaycan, Bakı, Hərbi Nə Qəsəbəsi</li>
-                <li>🌐 www.example.com</li>
-            </ul>
-        </div>
-        <div class="languages">
-            <h3>Dillər</h3>
-            <ul>
-                <li>Azərbaycan (Ana dili)</li>
-                <li>İngilis (Orta)</li>
-                <li>Rus (Yaxşı)</li>
-            </ul>
-        </div>
+        <img src="sekil.jpg" alt="Her Hansi bir sekil">
+      <section class="contact">
+        <h2>CONTACT</h2>
+        <p>‪+994 123-456-78-90‬</p>
+        <p>alimammadovv2007@gmail.com</p>
+        <p> Baku City</p>
+      </section>
+      <section class="education">
+        <h2>EDUCATION</h2>
+        <p><strong>2024 - 2028</strong><br>AZERBAIJAN TECHNICAL<br> UNIVERSITY<br>Cybersecurity</p>
+      </section>
+      <section class="skills">
+        <h2>SKILLS</h2>
+        <ul>
+          <li>Project Management</li>
+          <li>Public Relations</li>
+          <li>Time Management</li>
+          <li>Leadership</li>
+          <li>Critical Thinking</li>
+          <li>Network Security</li>
+          <li>Penetration Testing</li>
+          <li>Firewall Management</li>
+        </ul>
+      </section>
+      <section class="languages">
+        <h2>LANGUAGES</h2>
+        <p>English (intermediate)</p>
+        <p>Turkish (good)</p>
+      </section>
     </aside>
 
+
     <main class="main-content">
-        <section class="profile-section">
-            <h2>Profil</h2>
-            <p>İnformasiya təhlükəsizliyi sahəsinə dərin marağım var. Sistemlərin qorunması və təhlükəsizlik risklərinin idarə olunması üzrə ixtisaslaşmaqdayam.</p>
-        </section>
-
-        <section class="dynamic-section">
-            <button class="toggle-btn">Təhsil</button>
-            <div class="toggle-content">
-                <ul id="education-list">
-                    <li>2021-2025 - Azərbaycan Texniki Universiteti - İnformasiya Təhlükəsizliyi</li>
-                </ul>
-                <button onclick="addEducation()">Yeni Təhsil Əlavə Et</button>
-            </div>
-
-            <button class="toggle-btn">İş Təcrübəsi</button>
-            <div class="toggle-content">
-                <ul id="experience-list">
-                    <li>2025-2027 - CyberTech MMC - Təhlükəsizlik Analitiki</li>
-                </ul>
-                <button onclick="addExperience()">Yeni İş Əlavə Et</button>
-            </div>
-
-            <button class="toggle-btn">Bacarıqlar</button>
-            <div class="toggle-content">
-                <ul id="skills-list">
-                    <li>Şəbəkə Təhlükəsizliyi</li>
-                    <li>Penetration Testing</li>
-                    <li>Firewall İdarəetməsi</li>
-                </ul>
-                <button onclick="addSkill()">Yeni Bacarıq Əlavə Et</button>
-            </div>
-        </section>
+      <header>
+        <h1>Mammadovv <span>ALI</span></h1>
+        <h2>CYBERSECURITY SPECIALIST</h2>
+      </header>
+      <section class="profile">
+        <h2>PROFILE</h2>
+        <hr>
+        <p>I have a deep interest in the field of information security. I am specializing in systems protection and security risk management.</p>
+      </section>
+      <section class="experience">
+        <h2>WORK EXPERIENCE</h2>
+        <hr>
+        <div class="job">
+          <h3>CyberTech MMC <span>2024 - PRESENT</span></h3>
+          <p>Security Analyst</p>
+          <ul>
+            <li>Threat Detection and Monitoring</li>
+            <li>Incident Response</li>
+            <li>Vulnerability Assessment</li>
+            <li> Risk Assessment and Management</li>
+            <li>Data Protection and Privacy</li>
+          </ul>
+        </div>
+        
+        <div class="job">
+          <h3>SyberSec MMC<span>2023 - 2024</span></h3>
+          <p>1. Network Security
+            Configuring firewalls and routers securely
+            </p>
+          <ul>
+            <li>Develop and maintain strong relationships with partners and agencies.</li>
+            <li>Monitor and maintain brand consistency across all marketing materials.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="references">
+        <h2>REFERENCE</h2>
+        <hr>
+        <p><strong>Estelle Darcy</strong> - Wardiere Inc. / CTO</p>
+        <p><strong>Harper Richard</strong> - Wardiere Inc. / CEO</p>
+      </section>
     </main>
-</div>
-
-<script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
